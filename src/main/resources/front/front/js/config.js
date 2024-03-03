@@ -64,7 +64,7 @@ var indexNav = [
     // },
     {
         name: '筛选适配',
-        url: './pages/chongwulingyang/list.html'
+        url: './pages/chongwulingyang/filter.html'
     },
     {
         name: '评价反馈',
