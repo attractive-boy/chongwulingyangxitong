@@ -10,7 +10,7 @@
 
 
 
-var projectName = '宠物领养系统';
+var projectName = '流浪动物领养互助管理系统';
 /**
  * 轮播图配置
  */
@@ -55,25 +55,33 @@ var centerMenu = [
 var indexNav = [
 
     {
-        name: '宠物领养',
+        name: '流浪动物领养',
+        url: './pages/chongwulingyang/list.html'
+    },
+    // {
+    //     name: '宠物认领',
+    //     url: './pages/chongwurenling/list.html'
+    // },
+    {
+        name: '筛选适配',
         url: './pages/chongwulingyang/list.html'
     },
     {
-        name: '宠物认领',
-        url: './pages/chongwurenling/list.html'
-    },
-    {
-        name: '感谢信',
+        name: '评价反馈',
         url: './pages/ganxiexin/list.html'
     },
     {
-        name: '教学视频',
+        name: '问答互助',
         url: './pages/jiaoxueshipin/list.html'
     },
+    // {
+    //     name: '公告',
+    //     url: './pages/news/list.html'
+    // },
     {
-        name: '公告',
+        name:'宠粮售卖',
         url: './pages/news/list.html'
-    },
+    }
 
 ]
 
